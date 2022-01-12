@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+body{
+    display:flex;
+    flex-direction:column;
+    flex:1;
+    justify-content:space-between;
+    margin:0;
+}
+.header{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-between;
+    background-color: #1F2937;
+    margin: 0;
+    padding: 0px 220px 100px 200px;
+}
+
+.headertop{
+    display:flex;
+    flex-direction:row;
+    margin-bottom: 80px;
+}
+
+.headertop .logo{
+    margin-right: auto;
+}
+
+.headertop .links{
+    margin-left: auto;
+}
+
+.headerContent{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    gap:10px;
+
+}
+
+.header h1{
+    font-size:48px;
+    color: #F9FAF8;
+    font-weight: bold;
+    margin-right: auto;
+}
+
+.headerLeft p{
+    font-family: "roboto","sans-serif";
+    font-size:20px;
+    color: white;
+    font-weight: 100;
+}
+
+.headerLeft button{
+    color: white;
+    font-weight:bold;
+    width: 120px;
+    background-color: rgb(70, 144, 228);
+    padding: 5px;
+    margin: 0;
+    border: 0;
+    border-radius: 5px;
+}
+
+.headerRight{
+    display:flex;
+    flex: 1;
+    object-fit: cover;
+    width: 500px;
+    height: 200px;
+    max-width: 800px;
+    max-height: 100%;
+    margin-left: auto;
+}
+.headerRight img{
+    min-width: 100%;
+    min-height: 100%;
+}
+
+
+.logo {
+    font-size: 18px;
+    font-family: "Hero", arial;
+    font-weight: bold;
+    color:white;
+}
+
+ul{
+    display: flex;
+    gap:18px;
+    text-decoration: None;
+    color:white;
+    font-size:12px;
+
+}
+.contents{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.infos{
+    font-size:36px;
+    font-weight:800;
+    color: #1F2937;
+    margin-bottom: 20px;
+
+}
+
+.squares{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 40px;
+}
+
+.image {
+    display:flex;
+    align-items:center;
+    border-style: solid;
+    border-color: rgba(7, 138, 199, 0.726);
+    border-radius: 20px;
+    height: 140px;
+    width:140px;
+    margin-bottom: 10px;
+}
+
+.figText{ 
+    font-size: 12px;
+    text-align: center;
+    color
+    display:flex;
+    flex-direction:column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 10px;
+    max-width: 140px;
+}
+
+
+.quotation{
+    display:flex;
+    flex-direction:column;
+    background: rgba(229, 231, 235, 0.3);
+    padding: 80px;
+    margin:50px 0px;
+    align-items: center;
+    justify-content: center;
+}
+
+.quotationTextBox{
+    display:flex;
+    flex-direction:column;
+    max-width:800px;
+}
+.quote {
+    font-size: 36px;
+    font-style:italic;
+    display:flex;
+    flex-direction:column;
+}
+.author{
+    font-weight: bold;
+    margin-left: auto;
+    max-width: 600px;
+
+}
+.subscription{
+    display:flex;
+    margin: auto;
+    padding: 40px;
+    justify-content: space-around;
+    width: 850px;
+    background-color: rgb(70, 144, 228);
+    border-radius: 10px;
+}
+
+.textBoxSuscription{
+    display:flex;
+    flex-direction:column;
+}
+.subscription .text{
+    font-size: 14px;
+    color: white;
+    font-weight: bold;
+}
+
+.subscription .buttonText{
+    font-size: 12px;
+    color: white;
+
+}
+
+.subscription button{
+    color: white;
+    font-weight: bold;
+    border-style: solid;
+    border-color: white;
+    border-radius: 10px;
+    background-color: rgb(70, 144, 228);
+    width: 120px;
+}
+.Footer{
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #1F2937;
+    margin: 0;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.Footer p{
+    font-size:12px;
+    color: white;
+    font-weight: 100;
+}
